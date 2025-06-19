@@ -1,3 +1,4 @@
+import PricingTableFormClerk from "@/components/pricing";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -117,6 +118,7 @@ export default function Home() {
           </div>
           <div>
             {/* pricing Table  */}
+            <PricingTableFormClerk/>
 
             <Card className="mt-12 bg-muted/20 border-emerald-900/20">
               <CardHeader>
